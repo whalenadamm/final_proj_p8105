@@ -4,7 +4,7 @@ Project Proposal
 
 ## Trends in Adult Vaccination
 
-#### By: Maria Guzman, Ronae McLin, and Adam Whalen
+#### By: Maria Guzman (mgg2153), Ronae McLin (rkm2147), and Adam Whalen (amw2275)
 
 ### Motivation
 
@@ -43,31 +43,33 @@ look at some data that supports its presence within society.
 
 ### Final Products
 
-Project review meeting with p8105 teaching staff - Written report -
-Github supported webpage - Github repo - Screencast
+  - Project review meeting with p8105 teaching staff
+  - Written report
+  - Github supported webpage
+  - Github repo
+  - Screencast
 
 ### Data Sources
 
-National Health Survey - Vaccines included: Hepatitis B & A, Flu,
-Shingles, Whopping Cough, HPV -
-<https://www.cdc.gov/nchs/nhis/nhis_2018_data_release.htm> - Collection
-goes back to 1963
-
-Behavioral Risk Factor Surveillance System (BRFSS) - Vaccines included:
-flu, pneumococcal, tetanus, and shingles -
-<https://www.cdc.gov/brfss/annual_data/annual_data.htm>
-
-DOHMH Hepatitis Map - NYC open data - Vaccine: Hepatitis B; Shows
-location of facilities throughout NYC, services provided, etc. -
-<https://data.cityofnewyork.us/Health/DOHMH-Health-Map-Hepatitis/nk7g-qeep>
-
-New York City Locations Providing Seasonal Flu Vaccinations -
-<https://data.cityofnewyork.us/Health/New-York-City-Locations-Providing-Seasonal-Flu-Vac/w9ei-idxz>
-- Annual immunization data collection in the Americas -
-<https://www.paho.org/hq/index.php?option=com_content&view=article&id=2043:data-statistics-immunization&Itemid=2032&lang=en>
-
-Scraping - Can try to find data on vaccine opinions on the internet,
-could be cool to visualize
+  - National Health Survey
+      - Vaccines included: Hepatitis B & A, Flu, Shingles, Whopping
+        Cough, HPV
+      - <https://www.cdc.gov/nchs/nhis/nhis_2018_data_release.htm>
+      - Collection goes back to 1963
+  - Behavioral Risk Factor Surveillance System (BRFSS)
+      - Vaccines included: flu, pneumococcal, tetanus, and shingles
+      - <https://www.cdc.gov/brfss/annual_data/annual_data.htm>
+  - DOHMH Hepatitis Map - NYC open data
+      - Vaccine: Hepatitis B; Shows location of facilities throughout
+        NYC, services provided, etc.
+      - <https://data.cityofnewyork.us/Health/DOHMH-Health-Map-Hepatitis/nk7g-qeep>
+  - New York City Locations Providing Seasonal Flu Vaccinations
+      - <https://data.cityofnewyork.us/Health/New-York-City-Locations-Providing-Seasonal-Flu-Vac/w9ei-idxz>
+      - Annual immunization data collection in the Americas
+      - <https://www.paho.org/hq/index.php?option=com_content&view=article&id=2043:data-statistics-immunization&Itemid=2032&lang=en>
+  - Scraping
+      - Can try to find data on vaccine opinions on the internet, could
+        be cool to visualize
 
 ### Planned analyses
 
