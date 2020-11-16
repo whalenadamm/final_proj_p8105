@@ -1,0 +1,14 @@
+---
+title: "National Health Survey"
+author: "Ronae McLin"
+date: "11/16/2020"
+output: github_document
+---
+
+## importing and tidying the National Health Survey data 
+
+***focus is on flu vaccines***
+
+
+
+
