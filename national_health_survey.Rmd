@@ -9,6 +9,39 @@ output: github_document
 
 ***focus is on flu vaccines***
 
+```{r}
+library(tidyverse)
+```
+
+not really sure what this data set contains. need to look into this more
+```{r}
+person_df = 
+  read_csv("personsx.csv")
+```
 
 
+adult sample for 2019
+
+```{r}
+  adult_df = 
+  read_csv("adult19.csv")
+```
+
+
+- was SA pregnant last flu season?
+- flu vaccine
+- month of last flu vaccine,
+- year of last flu vaccine
+- was flu shot before or during pregnancy?
+- earlier pregnancy and flu vaccine
+```{r}
+flu_adult_df =
+  adult_df %>% 
+  janitor::clean_names() %>% 
+  select(
+    pregfluyr_a, shtflu12m_a, shtflum_a, shtfluy_a, flupreg_a, flupreg2_a
+  )
+
+
+```
 
