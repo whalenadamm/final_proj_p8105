@@ -69,6 +69,9 @@ person_df =
 
 adult sample for 2019
 
+\*\* there is ALOT of information and variables within this dataset. we
+can take this into many different directions \*\*
+
 ``` r
   adult_df = 
   read_csv("adult19.csv")
@@ -111,14 +114,23 @@ adult sample for 2019
   - year of last flu vaccine
   - was flu shot before or during pregnancy?
   - earlier pregnancy and flu vaccine
+  - etc….
 
-<!-- end list -->
+there is an interesting category pertaining to mobility, this could be
+helpful if we end up discussing accessbility to loaction to obtain a flu
+shot
+
+there is also interesting category of variables pertaining to insurance
+plans and coverage.
+
+interesting category of variables pertaining to utilization of
+healthcare services, outside of the scope of only flu vaccines.
 
 ``` r
 flu_adult_df =
   adult_df %>% 
   janitor::clean_names() %>% 
   select(
-    pregfluyr_a, shtflu12m_a, shtflum_a, shtfluy_a, flupreg_a, flupreg2_a
+    srvy_yr,agep_a, age65, sex_a, educ_a,hisp_a, hispallp_a, hisdetp_a, raceallp_a,phstat_a,bmicat_a, notcov_a, cover_a, cover65_a, usualpl_a, usplkind_a,  pregfluyr_a, shtflu12m_a, shtflum_a, shtfluy_a, flupreg_a, flupreg2_a
   )
 ```
